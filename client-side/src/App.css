@@ -1,0 +1,1506 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+
+/*CONTEUDO GERAL DA APP*/
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    background: #fff;
+}
+
+
+/*SIDEBAR*/
+
+.container .sidebar {
+    position: fixed;
+    height: 100vh;
+    background: rgb(3, 3, 36);
+    color: white;
+    width: 200px;
+    transition: all 0.5s;
+}
+
+.container .sidebar .top_section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+
+.container .sidebar .top_section .logo {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.container .sidebar .top_section .bars {
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container .sidebar .link {
+    display: flex;
+    color: #fff;
+    padding: 8px 15px;
+    gap: 10px;
+    align-items: flex-end;
+    transition: all 0.5s;
+}
+
+.container .sidebar .link:hover {
+    background: white;
+    color: rgb(3, 3, 36);
+    transition: all 0.5s;
+}
+
+.container .sidebar .active {
+    background: white;
+    color: rgb(3, 3, 36);
+    font-weight: bold;
+}
+
+.container .sidebar .link .link_text {
+    font-size: 15px;
+}
+
+
+/*CONTEUDO PRINCIPAL DA APP*/
+
+.container main {
+    width: 100%;
+}
+
+
+/*HEADER*/
+
+.container main .header {
+    height: 35px;
+    width: 100%;
+    background: white;
+    box-shadow: 10px 5px 5px rgb(174, 172, 172);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+}
+
+.container main .header .header-left h3 {
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(3, 3, 36);
+}
+
+.container main .header .header-right {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container main .header .header-right .icon:nth-child(1) {
+    margin-right: 10px;
+}
+
+.container main .header .header-right .icon,
+.container main .header .header-right .user .icon {
+    font-size: 15px;
+    color: rgb(3, 3, 36);
+}
+
+.container main .header .header-right .user {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+.container main .header .header-right .user h3 {
+    font-size: 15px;
+    color: rgb(3, 3, 36);
+    margin-right: 5px;
+}
+
+
+/*DASHBOARD*/
+
+.container main .container-content {
+    width: 100%;
+    display: inline-block;
+}
+
+.container main .container-content .container-title h3 {
+    font-size: 16px;
+    color: rgb(3, 3, 36);
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+
+/*SECTION-1 GESTOR PAGE*/
+
+.container main .container-content .dash-section-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 0px 10px;
+}
+
+.container main .container-content .dash-section-1 .dash-sub-section-1 {
+    width: 100%;
+}
+
+
+/*Section-1 report*/
+
+.container main .container-content .dash-section-1 .dash-sub-section-1 .report
+/*.container main .container-content .report*/
+
+{
+    background: #fff;
+    border-radius: 10px;
+    padding: 8px;
+    width: 100%;
+    height: 190px;
+    box-shadow: 5px 5px 10px rgb(110, 110, 108);
+}
+
+
+/*CARD*/
+
+.card-container {
+    display: flex;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;*/
+    justify-content: space-between;
+    margin: 10px;
+    gap: 10px;
+}
+
+.container main .container-content .card-overview {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.card-container .card,
+.card-overview .card {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px;
+    background: #eddddd;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+    border-radius: 4px;
+    /*box-shadow: 5px 5px 10px rgb(110, 110, 108);*/
+}
+
+.card-container .card .card-inner,
+.card-overview .card .card-inner {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.card-container .card .card-inner .icon,
+.card-overview .card .card-inner .icon {
+    font-size: 20px;
+    color: rgb(3, 3, 36);
+    margin-left: 5px;
+}
+
+.card-container .card .card-inner p,
+.card-overview .card .card-inner p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-container .card p,
+.card-overview .card p {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+
+/*TABLE*/
+
+
+/*SECTION-2 GESTOR PAGE*/
+
+.container main .container-content .table-section {
+    width: 100%;
+    padding: 5px 10px;
+}
+
+.container main .container-content .table-section-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 5px 10px;
+}
+
+.container main .container-content .table-section-2 .table-right,
+.container main .container-content .table-section-2 .table-left,
+.container main .container-content .container-table .table-right {
+    display: inline-block;
+}
+
+.container main .container-content .dash-section-1 .report .details,
+.container main .container-content .report .details,
+.container main .container-content .table-section-2 .table-right .details,
+.container main .container-content .table-section-2 .table-left .details,
+.container main .container-content .container-table .table-right .details,
+.container main .container-content .table-section .details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+
+/*list-users-dashboard*/
+
+.container main .container-content .table-section-2 .table-right .card-list-user {
+    width: 100%;
+    height: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    gap: 10px;
+    background: #9c9696;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.container main .container-content .table-section-2 .table-right .card-list-user .data {
+    display: flex;
+    align-items: center;
+}
+
+.container main .container-content .table-section-2 .table-right .card-list-user .data span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.container main .container-content .dash-section-1 .report .details h3,
+.container main .container-content .report .details h3,
+.container main .container-content .table-section-2 .table-right .details h3,
+.container main .container-content .container-table .table-right .details h3,
+.container main .container-content .table-section-2 .table-left .details h3,
+.container main .container-content .table-section .details h3 {
+    font-size: 14px;
+    color: #000;
+}
+
+.container main .container-content .dash-section-1 .report .details span,
+.container main .container-content .report .details span,
+.container main .container-content .table-section-2 .table-right .details span,
+.container main .container-content .table-section-2 .table-left .details span,
+.container main .container-content .container-table .table-right .details span,
+.container main .container-content .table-section .details span {
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #703939;
+}
+
+.container main .container-content .container-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+    padding: 5px 10px;
+}
+
+.container main .container-content .container-table .table-right table,
+.container main .container-content .table-section-2 .table-right table,
+.container main .container-content .table-section-2 .table-left table,
+.container main .container-content .table-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.container main .container-content .container-table .table-right table thead tr th,
+.container main .container-content .table-section-2 .table-right table thead tr th,
+.container main .container-content .table-section-2 .table-left table thead tr th,
+.container main .container-content .table-section table thead tr th {
+    text-align: left;
+    background: rgb(3, 3, 36);
+    color: #fff;
+    padding: 8px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container main .container-content .container-table .table-right table tbody tr td,
+.container main .container-content .table-section-2 .table-right table tbody tr td,
+.container main .container-content .table-section-2 .table-left table tbody tr td,
+.container main .container-content .table-section table tbody tr td {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.container main .container-content .container-table .table-right table tbody tr:nth-child(even) td,
+.container main .container-content .table-section-2 .table-right table tbody tr:nth-child(even) td,
+.container main .container-content .table-section-2 .table-left table tbody tr:nth-child(even) td,
+.container main .container-content .table-section table tbody tr:nth-child(even) td {
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+
+.container main .container-content .container-table .table-right table tbody tr:nth-child(odd) td,
+.container main .container-content .table-section-2 .table-right table tbody tr:nth-child(odd) td,
+.container main .container-content .table-section-2 .table-left table tbody tr:nth-child(odd) td,
+.container main .container-content .table-section table tbody tr:nth-child(odd) td {
+    background-color: #c7bebe;
+    color: black;
+}
+
+.container main .container-content .container-table .table-right h1 {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*VENDA PAGAMENTO DEVOLUCAO FORNECEDOR FUNCIONARIO UTILIZADOR ...*/
+
+.container main .container-content .table-container {
+    width: calc(100vw - 200px);
+    height: 510px;
+    overflow-y: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.btn-transaction {
+    background: blue;
+    color: white;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.table-btn {
+    width: 100px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.btn-pdf {
+    background: #921c1c;
+    color: white;
+}
+
+.table-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.table-header form {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.table-header form .campo {
+    width: 50%;
+}
+
+.table-header form .campo label {
+    font-size: 12px;
+}
+
+.table-header form button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    width: 100%;
+    background: blue;
+    color: white;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.table-header form select {
+    margin-right: 10px;
+}
+
+
+/*Others*/
+
+.table-header input[type="search"],
+.table-header form .campo input,
+.table-header form select {
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    padding: 8px;
+    background: #ddd8d8;
+}
+
+.table-header input[type="search"]::placeholder {
+    color: rgb(163, 152, 152);
+}
+
+.table-header .btn-action {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.table-header .btn-action button {
+    padding: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.table-header .btn-action button.new {
+    background: blue;
+    color: white;
+    margin-left: 10px;
+}
+
+.table-header .btn-action button.pdf {
+    background: red;
+    color: white;
+    margin-right: 10px;
+}
+
+.table-header .btn-action button.excel {
+    background: green;
+    color: white;
+    margin-left: 10px;
+}
+
+.table-header .btn-action button.importar {
+    background: rgb(226, 221, 221);
+    color: rgb(11, 1, 1);
+}
+
+
+/*Produto*/
+
+.table-header form {
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+}
+
+.table-header form .campo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.table-header form .campo label {
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.table-header form .campo select {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 4px;
+    background: #e0d5d5;
+    color: rgb(50, 28, 28);
+    border-radius: 10px;
+}
+
+.table-header form button.btn-filter {
+    padding: 4px 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    background: blue;
+    color: white;
+}
+
+
+/*PAGE TRANSACAO*/
+
+.container main .transaction-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    height: calc(100vh - 35px);
+    padding: 10px 0;
+}
+
+
+/*Transacao Detalhes*/
+
+.container main .transaction-container .transaction-details {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 4fr 1fr;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsProduct {
+    width: 100%;
+    padding: 10px 0;
+    background: #ddd8d8;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsProduct .transaction-card-details {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2.5fr 1fr 0.5fr 0.5fr 0.5fr;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsProduct .card-title {
+    border-bottom: 1px solid #9c9696;
+    padding-bottom: 5px;
+}
+
+
+/*
+.container main .transaction-container .transaction-details .transactionDetailsProduct .card-products {
+    background: rgb(246, 235, 235);
+    border-radius: 10px;
+}
+*/
+
+.container main .transaction-container .transaction-details .transactionDetailsProduct .transaction-card-details span.title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsProduct .transaction-card-details span.product {
+    font-size: 14px;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsProduct .transaction-card-details span .action-icon {
+    cursor: pointer;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails {
+    width: 50%;
+    display: grid;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .subTotal,
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .finalPrice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .subTotal span:first-child {
+    margin-bottom: 10px;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .finalPrice {
+    border-top: 1px dashed #000;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .subTotal .title,
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .subTotal .subTotalPrice {
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .subTotal .title span {
+    font-size: 14px;
+}
+
+.container main .transaction-container .transaction-details .transactionDetailsPrice .priceDetails .finalPrice span {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*Ações de transação*/
+
+.container main .transaction-container .transacao-action {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    flex-direction: column;
+    /*width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;*/
+}
+
+.container main .transaction-container .transacao-action .sales-saved {
+    width: 100%;
+    height: 75%;
+    border-bottom: 1px solid #9c9696;
+    margin-bottom: 10px;
+}
+
+.container main .transaction-container .transacao-action .sales-saved input[type="search"] {
+    width: 50%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgb(224, 224, 234);
+    margin-top: 10px;
+}
+
+.container main .transaction-container .transacao-action .sales-saved h3 {
+    font-size: 14px;
+}
+
+.container main .transaction-container .transacao-action .sales-saved .tbl-vendas-Saved {
+    width: 100%;
+    height: 100%;
+    max-height: 330px;
+    /* Defina a altura máxima desejada */
+    overflow-y: auto;
+}
+
+.container main .transaction-container .transacao-action .sales-saved .tbl-vendas-Saved .tbl-header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    /* Adicione um fundo branco para cobrir o conteúdo rolando por baixo */
+    z-index: 1;
+    /* Certifique-se de que o cabeçalho esteja acima do conteúdo rolável */
+}
+
+.container main .transaction-container .transacao-action .sales-saved .tbl-vendas-Saved .tbl-header span {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container main .transaction-container .transacao-action .sales-saved .tbl-vendas-Saved .tbl-body {
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 10px;
+}
+
+.container main .transaction-container .transacao-action .sales-saved .tbl-vendas-Saved .tbl-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    padding: 10px 5px;
+}
+
+.container main .transaction-container .transacao-action .button-actions {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.container main .transaction-container .transacao-action .button-actions .fields {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container main .transaction-container .transacao-action .button-actions .fields button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    width: 100%;
+}
+
+.container main .transaction-container .transacao-action .button-actions .fields button.btn-cancelar {
+    background: red;
+    color: white;
+}
+
+.container main .transaction-container .transacao-action .button-actions .btn-pagar {
+    background: green;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/*PRODUCT TRANSACTION POP UP*/
+
+.container main .modal-overlay {
+    background: #d0c7c7;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.container main .modal-overlay .modal-content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.container main .modal-overlay .modal-content .close-btn {
+    text-align: right;
+    margin-top: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(70, 131, 70);
+}
+
+.container main .modal-overlay .modal-content .reg-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.container main .modal-overlay .modal-content .reg-container h2 {
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.container main .modal-overlay .modal-content .reg-container .reg-form-container {
+    width: 100%;
+}
+
+.container main .modal-overlay .reg-container .reg-form-container form .input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container main .modal-overlay .reg-container .reg-form-container form .input-duo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.reg-container .reg-form-container form .input-duo .input-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .modal-overlay .reg-container .reg-form-container form .input-box input,
+.container main .modal-overlay .reg-container .reg-form-container form .input-box select,
+.container main .modal-overlay .reg-container .reg-form-container form .input-duo .input-body select,
+.container main .modal-overlay .reg-container .reg-form-container form .input-duo .input-body input {
+    outline: none;
+    border: none;
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.container main .modal-overlay .reg-container .reg-form-container form .input-box label,
+.container main .modal-overlay .reg-container .reg-form-container form .input-body label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.container main .modal-overlay .reg-container .reg-form-container form button {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    background: blue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+/*IF MODAL IS OPEN*/
+
+.container main .transaction-container.show-modal {
+    filter: blur(2px);
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+
+/*REPORT*/
+
+.container main .container-content .report-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 220px;
+    gap: 10px;
+    margin: 5px 10px;
+}
+
+.container main .container-content .report-data .report {
+    height: 100%;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.container main .container-content .report-data .report h3 {
+    font-size: 12px;
+}
+
+
+/*Settings*/
+
+
+/*UPDATE PROFILE*/
+
+.container main .container-content .profileHeader {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container main .container-content .profileHeader ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container main .container-content .profileHeader ul li {
+    font-size: 12px;
+    list-style: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container main .container-content .profileHeader ul li.active {
+    border-bottom: 2px solid blue;
+}
+
+.container main .container-content .upt-profile,
+.container main .container-content .upt-password {
+    width: 100%;
+    padding: 30px;
+}
+
+.container main .container-content .upt-profile h3,
+.container main .container-content .upt-password h3 {
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+}
+
+.container main .container-content .upt-profile form {
+    width: 400px;
+    padding: 10px;
+}
+
+.container main .container-content .upt-password form {
+    width: 300px;
+    padding: 10px;
+}
+
+.container main .container-content .upt-profile form .form-image input {
+    display: none;
+}
+
+.container main .container-content .upt-profile form .input-duo {
+    display: flex;
+    width: 100%;
+}
+
+.container main .container-content .upt-profile form .input-duo .input-body,
+.container main .container-content .upt-password form .input-box {
+    width: 100%;
+}
+
+.container main .container-content .upt-profile form .input-duo .input-body input,
+.container main .container-content .upt-password form .input-box input {
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    background: #d4d1d1;
+}
+
+.first-child {
+    margin-right: 10px;
+}
+
+.container main .container-content .upt-profile form .input-duo .input-body label,
+.container main .container-content .upt-password form .input-box label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.container main .container-content .upt-profile form button,
+.container main .container-content .upt-password form button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: rgb(186, 47, 47);
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/*Report Page*/
+
+.container main .container-content .reportHeader {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container main .container-content .reportHeader ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+
+.container main .container-content .reportHeader ul li {
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container main .container-content .reportHeader ul li.active {
+    border-bottom: 2px solid blue;
+}
+
+.container main .container-content .report-body {
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    height: 450px;
+}
+
+.container main .container-content .report-body .report-filter form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.container main .container-content .report-body .report-filter form .input-camp label {
+    margin-right: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container main .container-content .report-body .report-filter form .input-camp input {
+    outline: none;
+    padding: 5px;
+}
+
+.container main .container-content .report-body .report-filter form button {
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: bold;
+    background: blue;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container main .container-content .report-body .report-filter select {
+    border: 1px solid #000;
+    outline: none;
+    padding: 5px;
+    font-size: 12px;
+}
+
+
+/*Fluxo Caixa formulario*/
+
+.container main .fluxoCaixa-form-container {
+    width: 100%;
+    height: calc(100vh - 35px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container main .fluxoCaixa-form-container h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+    background: rgb(3, 3, 36);
+    color: white;
+    max-width: 300px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.container main .fluxoCaixa-form-container form {
+    max-width: 300px;
+    width: 100%;
+    border: 1px solid #000;
+    padding: 10px;
+}
+
+.container main .fluxoCaixa-form-container form .field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .fluxoCaixa-form-container form .field label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.container main .fluxoCaixa-form-container form .field input,
+.container main .fluxoCaixa-form-container form .field select {
+    padding: 6px;
+    margin-bottom: 5px;
+    text-align: center;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.container main .fluxoCaixa-form-container form button {
+    width: 100%;
+    background: blue;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/*Formulario Devolução*/
+
+.container main .container-content .dev-form {
+    width: 100%;
+    height: calc(100vh - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container main .container-content .dev-form .dev-title {
+    background: rgb(3, 3, 36);
+    max-width: 450px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.container main .container-content .dev-form .dev-title h3 {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.container main .container-content .dev-form form {
+    max-width: 450px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #000;
+}
+
+.container main .container-content .dev-form form .cliente-info,
+.container main .container-content .dev-form form .dev-info {
+    width: 100%;
+}
+
+.container main .container-content .dev-form form .cliente-info h3,
+.container main .container-content .dev-form form .dev-info h3 {
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.container main .container-content .dev-form form .cliente-info .full-camp,
+.container main .container-content .dev-form form .dev-info .full-camp,
+.container main .container-content .dev-form form .cliente-info .middle-camp .the-camp,
+.container main .container-content .dev-form form .dev-info .middle-camp .the-camp {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .container-content .dev-form form .cliente-info .middle-camp,
+.container main .container-content .dev-form form .dev-info .middle-camp {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container main .container-content .dev-form form .cliente-info .full-camp label,
+.container main .container-content .dev-form form .dev-info .full-camp label,
+.container main .container-content .dev-form form .cliente-info .middle-camp .the-camp label,
+.container main .container-content .dev-form form .dev-info .middle-camp .the-camp label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.container main .container-content .dev-form form .cliente-info .full-camp input,
+.container main .container-content .dev-form form .dev-info .full-camp input,
+.container main .container-content .dev-form form .cliente-info .middle-camp .the-camp input,
+.container main .container-content .dev-form form .dev-info .middle-camp .the-camp input,
+.container main .container-content .dev-form form .cliente-info .full-camp select,
+.container main .container-content .dev-form form .dev-info .full-camp select,
+.container main .container-content .dev-form form .cliente-info .middle-camp .the-camp select,
+.container main .container-content .dev-form form .dev-info .middle-camp .the-camp select {
+    padding: 6px;
+    margin-bottom: 5px;
+    text-align: start;
+    outline: none;
+    font-size: 12px;
+    border: 1px solid #000;
+}
+
+.container main .container-content .dev-form form button {
+    width: 100%;
+    background: blue;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/*
+.container main .transaction-container .data-transaction {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 0.7;
+    margin-right: 10px;
+}
+*/
+
+
+/*List Category*/
+
+
+/*
+.container main .transaction-container .data-transaction .category {
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+
+.container main .transaction-container .data-transaction .category ul {
+    height: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+*/
+
+
+/*List Product*/
+
+
+/*
+.container main .transaction-container .data-transaction .product {
+    width: 100%;
+    padding: 10px;
+    height: 100%;
+    overflow-y: auto;
+    max-height: calc(100vh - 100px);
+}
+
+.container main .transaction-container .data-transaction .product ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+    gap: 5px;
+}
+
+.container main .transaction-container .data-transaction .product ul li .product-img {
+    width: 85px;
+    height: 65px;
+    border-radius: 25px;
+}
+
+.container main .transaction-container .data-transaction .product ul li .product-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+.container main .transaction-container .data-transaction .product ul li .product-name {
+    margin-top: 5px;
+}
+
+.container main .transaction-container .data-transaction .category ul li,
+.container main .transaction-container .data-transaction .product ul li {
+    font-size: 14px;
+    font-weight: 600;
+}
+*/
+
+
+/*LISTA DE TRANSAÇÃO*/
+
+
+/*
+.container main .transaction-container .list-transaction-action {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 0.3;
+}
+
+.container main .transaction-container .list-transaction-action .list-transaction {
+    height: 470px;
+    overflow-y: auto;
+}
+
+
+*/
+
+
+/*
+.container main .transaction-container .data-transaction h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}*/
+
+
+/*FORMULARIO de TRANSAÇÃO*/
+
+
+/*
+.container main .transaction-container .data-transaction .form-data-transaction {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container main .transaction-container .data-transaction .form-data-transaction form {
+    padding-left: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 5px 5px 10px rgb(110, 110, 108);
+    border-radius: 10px;
+    padding: 20px 10px;
+}
+
+.container main .transaction-container .data-transaction .form-data-transaction form .transaction-input select,
+.container main .transaction-container .data-transaction .form-data-transaction form .transaction-input input {
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: #aea3a3;
+    border-radius: 10px;
+}
+
+.container main .transaction-container .data-transaction .form-data-transaction form .transaction-input input::placeholder {
+    color: white;
+}
+
+.container main .transaction-container .data-transaction .form-data-transaction form button {
+    width: 85px;
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: rgb(38, 38, 195);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.container main .transaction-container .data-transaction .form-data-transaction .transacation-product-total {
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.container main .transaction-container .data-transaction .form-data-transaction .transacation-product-total h3 {
+    margin-right: 5px;
+}
+*/
+
+
+/*TABLE DETAILS de TRANSAÇÃO*/
+
+
+/*
+.container main .transaction-container .data-transaction .table-transacation-details {
+    height: 400px;
+    overflow-y: auto;
+    margin-top: 30px;
+}
+
+.container main .transaction-container .data-transaction .table-transacation-details table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.container main .transaction-container .data-transaction .table-transacation-details table thead {
+    position: sticky;
+    top: 0;
+    background: blue;
+}
+
+.container main .transaction-container .data-transaction .table-transacation-details table thead tr th {
+    padding: 8px;
+    color: white;
+}
+
+.container main .transaction-container .data-transaction .table-transacation-details table tbody tr {
+    color: #000;
+    background: white;
+    border-bottom: 1px solid blue;
+}
+
+.container main .transaction-container .data-transaction .table-transacation-details table tbody tr:last-child {
+    border-bottom: none;
+}
+
+.container main .transaction-container .data-transaction .table-transacation-details table tbody tr td {
+    padding: 8px;
+}
+*/
+
+
+/*
+.container main .transaction-container .data-transaction .table-transacation-details table tbody tr:nth-child(odd) td {
+    background: white;
+}
+
+.container main .transaction-container .data-transaction .table-transacation-details table tbody tr:nth-child(even) td {
+    background: #8b8383;
+}*/
+
+
+/*
+.container main .transaction-container .details-transaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.container main .transaction-container .details-transaction .total,
+.container main .transaction-container .details-transaction .desconto,
+.container main .transaction-container .details-transaction .imposto {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
+
+.container main .transaction-container .details-transaction .total h3,
+.container main .transaction-container .details-transaction .desconto h3,
+.container main .transaction-container .details-transaction .imposto h3 {
+    margin-right: 5px;
+}
+
+.container main .transaction-container .details-transaction .btn-class {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.container main .transaction-container .details-transaction .btn-class button {
+    padding: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.container main .transaction-container .details-transaction .btn-class .btn-fatura {
+    background: yellow;
+    color: black;
+}
+
+.container main .transaction-container .details-transaction .btn-class .btn-cliente {
+    background: green;
+    color: white;
+}
+
+.container main .transaction-container .details-transaction .btn-class .btn-cancelar {
+    background: red;
+    color: white;
+}
+
+.container main .transaction-container .details-transaction .btn-class .btn-pagar {
+    background: blue;
+    color: white;
+}*/

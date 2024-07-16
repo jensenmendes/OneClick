@@ -1,0 +1,192 @@
+2024-07-07 23:17:40 [ERROR] - Senha errado!
+2024-07-07 23:17:40 [ERROR] - Erro: ConnectionError: Login failed for user 'Mendes'.  Reason: The password of the account has expired.
+2024-07-07 23:17:40 [ERROR] - Erro: ConnectionError: Login failed for user 'Mendes'.  Reason: The password of the account has expired.
+2024-07-07 23:19:13 [ERROR] - Senha errado!
+2024-07-07 23:19:14 [ERROR] - Erro: RequestError: The SELECT permission was denied on the object 'Utilizador', database 'OneClick', schema 'dbo'.
+2024-07-07 23:19:14 [ERROR] - Erro: RequestError: The SELECT permission was denied on the object 'Utilizador', database 'OneClick', schema 'dbo'.
+2024-07-07 23:19:44 [ERROR] - Senha errado!
+2024-07-07 23:19:45 [ERROR] - Erro: RequestError: The SELECT permission was denied on the object 'Utilizador', database 'OneClick', schema 'dbo'.
+2024-07-07 23:19:45 [ERROR] - Erro: RequestError: The SELECT permission was denied on the object 'Utilizador', database 'OneClick', schema 'dbo'.
+2024-07-07 23:39:18 [ERROR] - Senha errado!
+2024-07-07 23:39:42 [ERROR] - Senha errado!
+2024-07-07 23:40:52 [ERROR] - Senha errado!
+2024-07-08 19:57:58 [ERROR] - Erro: ReferenceError: jwt is not defined
+2024-07-08 20:13:26 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 20:13:26 [ERROR] - Erro ao listar os utilizadores!
+2024-07-08 20:15:39 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 20:15:39 [ERROR] - Erro ao listar os utilizadores!
+2024-07-08 20:16:44 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 20:16:44 [ERROR] - Erro ao listar os utilizadores!
+2024-07-08 20:25:47 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 20:25:47 [INFO] - Utilizador adicionado com sucesso!
+2024-07-08 20:42:28 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 20:42:28 [ERROR] - Erro ao listar o utilizador!
+2024-07-08 20:59:45 [ERROR] - Utilizador não pode efetuar login no momento!
+2024-07-08 21:00:26 [ERROR] - Utilizador não pode efetuar login no momento!
+2024-07-08 21:03:26 [ERROR] - Estado de utilizador não foi alterado, verificar!
+2024-07-08 21:05:02 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:05:02 [INFO] - Utilizador adicionado com sucesso!
+2024-07-08 21:10:40 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:10:40 [INFO] - Utilizador adicionado com sucesso!
+2024-07-08 21:12:32 [INFO] - Utilizador adicionado com sucesso!
+2024-07-08 21:14:21 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:14:21 [ERROR] - Erro ao listar o utilizador!
+2024-07-08 21:15:59 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:15:59 [ERROR] - Erro ao listar o utilizador!
+2024-07-08 21:29:56 [INFO] - User atualizado com sucesso
+2024-07-08 21:33:46 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:33:46 [ERROR] - Senhas não batem.
+2024-07-08 21:37:01 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:37:01 [ERROR] - Senhas não batem.
+2024-07-08 21:37:09 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:37:09 [ERROR] - Senhas não batem.
+2024-07-08 21:41:27 [ERROR] - Erro: RequestError: Must declare the scalar variable "@input_parameter".
+2024-07-08 21:41:27 [ERROR] - Erro: Error: data and hash arguments required
+2024-07-08 21:42:43 [ERROR] - Erro: TypeError: newSenha.length is not a function
+2024-07-08 21:44:06 [ERROR] - Senhas não confirmam.
+2024-07-08 21:44:16 [ERROR] - Erro ao atualizar a senha!
+2024-07-08 21:44:53 [ERROR] - Senha errado!
+2024-07-08 21:46:21 [ERROR] - Erro ao atualizar a senha!
+2024-07-08 21:48:35 [INFO] - Senha atualizado com sucesso
+2024-07-09 22:40:35 [INFO] - Fornecedor adicionado com sucesso!
+2024-07-09 22:42:45 [INFO] - Fornecedor adicionado com sucesso!
+2024-07-09 22:42:59 [INFO] - Fornecedor atualizado com sucesso!
+2024-07-09 22:43:19 [INFO] - Fornecedor atualizado com sucesso!
+2024-07-09 22:43:40 [INFO] - Fornecedor atualizado com sucesso!
+2024-07-09 22:46:53 [INFO] - Fornecedor atualizado com sucesso
+2024-07-09 22:47:45 [INFO] - Fornecedor eliminado com sucesso!
+2024-07-09 22:50:08 [ERROR] - Erro: ReferenceError: nomeEmpresa is not defined
+2024-07-09 22:50:08 [INFO] - Categoria adicionado com sucesso!
+2024-07-09 22:50:20 [ERROR] - Erro: ReferenceError: nomeEmpresa is not defined
+2024-07-09 22:50:20 [INFO] - Categoria adicionado com sucesso!
+2024-07-09 22:51:53 [ERROR] - Categoria já foi criada!
+2024-07-09 22:51:58 [INFO] - Categoria adicionado com sucesso!
+2024-07-09 22:54:04 [INFO] - Categoria eliminado com sucesso!
+2024-07-09 22:54:36 [INFO] - Categoria adicionado com sucesso!
+2024-07-10 11:49:03 [ERROR] - Erro: RequestError: Invalid column name 'nomeProdutoa'.
+2024-07-10 11:49:03 [ERROR] - Erro: RequestError: Validation failed for parameter 'imagem'. Invalid string.
+2024-07-10 11:49:03 [ERROR] - Erro ao adicionar novo produto!
+2024-07-10 11:56:35 [ERROR] - Erro: RequestError: Validation failed for parameter 'imagem'. Invalid string.
+2024-07-10 11:56:35 [ERROR] - Erro ao adicionar novo produto!
+2024-07-10 11:58:00 [ERROR] - Erro: RequestError: Validation failed for parameter 'imagem'. Invalid string.
+2024-07-10 11:58:00 [ERROR] - Erro ao adicionar novo produto!
+2024-07-10 12:02:05 [INFO] - Produto adicionado com sucesso!
+2024-07-10 21:08:48 [INFO] - Produto atualizado com sucesso
+2024-07-10 21:10:15 [INFO] - Produto atualizado com sucesso
+2024-07-10 21:12:38 [INFO] - Produto eliminado com sucesso!
+2024-07-10 21:44:29 [ERROR] - Categoria já foi criada!
+2024-07-10 21:44:51 [ERROR] - Não tem permissão para criar categoria!
+2024-07-10 21:45:27 [ERROR] - Não tem permissão para criar fornecedores!
+2024-07-10 21:47:05 [INFO] - Metodo de pagamento adicionado com sucesso!
+2024-07-10 21:47:10 [ERROR] - Metodo de pagamento já foi criada!
+2024-07-10 21:47:21 [INFO] - Metodo de pagamento adicionado com sucesso!
+2024-07-10 21:47:36 [INFO] - Metodo de pagamento adicionado com sucesso!
+2024-07-11 10:58:55 [ERROR] - Erro: ReferenceError: Cannot access 'pdv' before initialization
+2024-07-11 10:58:55 [ERROR] - Erro: RequestError: Invalid object name 'OneClick.dbo.pdvPagamento'.
+2024-07-11 10:58:55 [ERROR] - Erro ao adicionar novo pdv!
+2024-07-11 10:59:56 [ERROR] - Erro: ReferenceError: Cannot access 'pdv' before initialization
+2024-07-11 10:59:56 [INFO] - PDV adicionado com sucesso!
+2024-07-11 11:01:08 [INFO] - PDV eliminado com sucesso!
+2024-07-11 11:01:15 [ERROR] - Erro: ReferenceError: Cannot access 'pdv' before initialization
+2024-07-11 11:01:15 [INFO] - PDV adicionado com sucesso!
+2024-07-11 11:01:19 [ERROR] - Erro: ReferenceError: Cannot access 'pdv' before initialization
+2024-07-11 11:01:19 [INFO] - PDV adicionado com sucesso!
+2024-07-11 11:01:21 [ERROR] - Erro: ReferenceError: Cannot access 'pdv' before initialization
+2024-07-11 11:01:21 [INFO] - PDV adicionado com sucesso!
+2024-07-11 11:01:22 [ERROR] - Erro: ReferenceError: Cannot access 'pdv' before initialization
+2024-07-11 11:01:22 [INFO] - PDV adicionado com sucesso!
+2024-07-11 11:29:42 [INFO] - PDV adicionado com sucesso!
+2024-07-11 12:41:19 [ERROR] - Sem conexão à internet!
+2024-07-11 12:41:48 [ERROR] - Sem conexão à internet!
+2024-07-11 12:42:31 [ERROR] - Sem conexão à internet!
+2024-07-11 13:02:58 [ERROR] - Sem conexão à internet!
+2024-07-11 20:27:45 [ERROR] - Erro: ReferenceError: id is not defined
+2024-07-11 20:27:45 [ERROR] - Erro: RequestError: Validation failed for parameter 'dataFim'. Invalid date.
+2024-07-11 20:27:45 [ERROR] - Erro ao adicionar novo desconto!
+2024-07-11 20:28:56 [ERROR] - Erro: ReferenceError: id is not defined
+2024-07-11 20:28:56 [ERROR] - Erro: RequestError: Validation failed for parameter 'dataFim'. Invalid date.
+2024-07-11 20:28:56 [ERROR] - Erro ao adicionar novo desconto!
+2024-07-11 20:31:37 [ERROR] - Erro: ReferenceError: id is not defined
+2024-07-11 20:31:37 [ERROR] - Erro: RequestError: Validation failed for parameter 'dataFim'. Invalid date.
+2024-07-11 20:31:37 [ERROR] - Erro ao adicionar novo desconto!
+2024-07-11 20:32:15 [ERROR] - Erro: ReferenceError: id is not defined
+2024-07-11 20:32:15 [ERROR] - Erro: RequestError: Validation failed for parameter 'dataFim'. Invalid date.
+2024-07-11 20:32:15 [ERROR] - Erro ao adicionar novo desconto!
+2024-07-11 20:32:36 [ERROR] - Erro na seleção das datas!
+2024-07-11 20:33:16 [ERROR] - Erro: ReferenceError: id is not defined
+2024-07-11 20:33:16 [INFO] - Desconto adicionado com sucesso!
+2024-07-11 20:38:31 [ERROR] - Erro: ReferenceError: id is not defined
+2024-07-11 20:38:31 [INFO] - Desconto adicionado com sucesso!
+2024-07-11 20:39:37 [ERROR] - Erro: ReferenceError: id is not defined
+2024-07-11 20:39:37 [INFO] - Desconto adicionado com sucesso!
+2024-07-11 20:40:03 [ERROR] - Erro na seleção das datas!
+2024-07-11 20:40:49 [ERROR] - Erro na seleção das datas!
+2024-07-11 20:43:08 [ERROR] - Erro: RequestError: Incorrect syntax near ')'.
+2024-07-11 20:43:08 [ERROR] - Erro ao atualizar desconto!
+2024-07-11 20:43:34 [INFO] - Desconto atualizado com sucesso!
+2024-07-11 20:43:46 [INFO] - Desconto atualizado com sucesso!
+2024-07-11 21:02:08 [INFO] - Desconto eliminado com sucesso!
+2024-07-15 10:36:25 [INFO] - Estado atualizado!
+2024-07-15 10:37:09 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:37:28 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:39:27 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:42:07 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:42:34 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:43:40 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:47:01 [ERROR] - Não tem permissão para listar PDV!
+2024-07-15 10:48:35 [ERROR] - Erro: RequestError: Incorrect syntax near the keyword 'WHERE'.
+2024-07-15 10:48:35 [ERROR] - Erro ao abrir a caixa!
+2024-07-15 10:50:46 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:50:55 [ERROR] - Erro: RequestError: Validation failed for parameter 'id'. Invalid string.
+2024-07-15 10:50:55 [ERROR] - Erro: RequestError: Cannot insert the value NULL into column 'id', table 'OneClick.dbo.UtilizadorLogado'; column does not allow nulls. INSERT fails.
+2024-07-15 10:50:55 [ERROR] - Erro ao adionar utilizador referenciado na caixa!
+2024-07-15 10:53:00 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:53:04 [ERROR] - PDV está em operação!
+2024-07-15 10:53:10 [ERROR] - Erro: RequestError: Validation failed for parameter 'id'. Invalid string.
+2024-07-15 10:53:10 [ERROR] - Erro: RequestError: Cannot insert the value NULL into column 'id', table 'OneClick.dbo.UtilizadorLogado'; column does not allow nulls. INSERT fails.
+2024-07-15 10:53:10 [ERROR] - Erro ao adionar utilizador referenciado na caixa!
+2024-07-15 10:54:04 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:54:10 [ERROR] - Erro: RequestError: Validation failed for parameter 'id'. Invalid string.
+2024-07-15 10:54:10 [ERROR] - Erro: RequestError: Cannot insert the value NULL into column 'id', table 'OneClick.dbo.UtilizadorLogado'; column does not allow nulls. INSERT fails.
+2024-07-15 10:54:10 [ERROR] - Erro ao adionar utilizador referenciado na caixa!
+2024-07-15 10:55:28 [INFO] - Estado do desconto atualizado!
+2024-07-15 10:55:36 [ERROR] - Erro: RequestError: Cannot insert the value NULL into column 'id', table 'OneClick.dbo.UtilizadorLogado'; column does not allow nulls. INSERT fails.
+2024-07-15 10:55:36 [ERROR] - Erro ao adionar utilizador referenciado na caixa!
+2024-07-15 11:13:30 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:13:59 [INFO] - Fluxo de caixa aberto com sucesso!
+2024-07-15 11:16:04 [ERROR] - Erro: ReferenceError: token is not defined
+2024-07-15 11:17:07 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:17:09 [ERROR] - Erro: ReferenceError: token is not defined
+2024-07-15 11:18:49 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:19:00 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:19:06 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:19:06 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:19:06 [INFO] - Fluxo de caixa aberto com sucesso!
+2024-07-15 11:19:19 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:19:30 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:19:34 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:20:08 [INFO] - Fluxo de caixa aberto com sucesso!
+2024-07-15 11:20:52 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:21:08 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:21:08 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:21:08 [INFO] - Fluxo de caixa fechado com sucesso!
+2024-07-15 11:23:05 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:23:17 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:23:17 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:23:17 [INFO] - Fluxo de caixa fechado com sucesso!
+2024-07-15 11:27:47 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:27:50 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:27:50 [ERROR] - Erro em obter pdv!
+2024-07-15 11:28:09 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:28:14 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:28:15 [ERROR] - Erro: ReferenceError: Cannot access 'token' before initialization
+2024-07-15 11:28:15 [ERROR] - Erro em obter pdv!
+2024-07-15 11:28:38 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:28:50 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:29:34 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:29:39 [INFO] - Fluxo de caixa fechado com sucesso!
+2024-07-15 11:29:56 [INFO] - Fluxo de caixa fechado com sucesso!
+2024-07-15 11:30:49 [INFO] - Estado do desconto atualizado!
+2024-07-15 11:31:31 [INFO] - Fluxo de caixa aberto com sucesso!
+2024-07-15 11:32:29 [INFO] - Fluxo de caixa fechado com sucesso!
+2024-07-15 11:33:19 [ERROR] - Não tem permissão para listar fluxo caixas!

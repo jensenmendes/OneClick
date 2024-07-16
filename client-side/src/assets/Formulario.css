@@ -1,0 +1,351 @@
+.container main .modal {
+    margin-top: 20px;
+    background: white;
+    min-width: 350px;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 999;
+}
+
+.container main .modal .modal-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+
+/*MODAL HEADER*/
+
+.container main .modal .modal-container .modal-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(3, 3, 36);
+    color: white;
+    padding: 10px;
+}
+
+.container main .modal .modal-container .modal-header h3 {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.container main .modal .modal-container .modal-header .close-btn {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.container main .modal .modal-container .reg-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 15px;
+}
+
+.container main .modal .modal-container .container-modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .modal .modal-container .container-modal .action {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.container main .modal .modal-container .container-modal .action button {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.container main .modal .modal-container .container-modal .action button.btn-conf {
+    margin-right: 10px;
+    background: blue;
+    color: white;
+}
+
+.container main .modal .modal-container .container-modal .action button.btn-cancelar {
+    background: red;
+    color: white;
+}
+
+.container main .modal .modal-container .reg-container h2,
+.container main .modal .modal-container .container-modal h2 {
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container {
+    width: 100%;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-duo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box .inCheck {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box .inCheck label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box .inCheck label input[type="Checkbox"] {
+    margin-right: 5px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-duo .input-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-duo .input-body input,
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box input,
+.container main .modal .modal-container .reg-container .reg-form-container form .input-duo .input-body select,
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box textarea,
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box select {
+    outline: none;
+    border: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+    background: rgb(226, 219, 219);
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-body label,
+.container main .modal .modal-container .reg-container .reg-form-container form .input-box label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .input-body input {
+    width: 100%;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form button {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    background: blue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .form-image {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .form-image input {
+    display: none;
+}
+
+
+/*TROCA PRODUTO TITLE*/
+
+.container main .modal .modal-container .reg-container .reg-form-container form .troca-title {
+    text-align: center;
+    font-size: 12px;
+    color: blue;
+    margin-top: 12px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .diff {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .diff h3 {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.container main .modal .modal-container .reg-container .reg-form-container form .diff p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(131, 75, 75);
+}
+
+.container main .container-content.show-modal {
+    filter: blur(2px);
+    opacity: 0.2;
+    pointer-events: none;
+}
+
+
+/**/
+
+.container main .register-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: calc(100vh - 65px);
+}
+
+.container main .register-container .reg-container {
+    display: flex;
+    flex-direction: column;
+    background: aliceblue;
+    box-shadow: 5px 10px 10px rgb(158, 131, 131);
+    width: 350px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container main .register-container .reg-container h2 {
+    text-align: center;
+    font-size: 16px;
+    color: blue;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.container main .register-container .reg-container .reg-form-container {
+    width: 100%;
+}
+
+.container main .register-container .reg-container .reg-form-container form .input-box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container main .register-container .reg-container .reg-form-container form .input-duo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 100%;
+}
+
+.container main .register-container .reg-container .reg-form-container form .input-duo .input-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container main .register-container .reg-container .reg-form-container form .input-duo .input-body input,
+.container main .register-container .reg-container .reg-form-container form .input-box input,
+.container main .register-container .reg-container .reg-form-container form .input-duo .input-body select,
+.container main .register-container .reg-container .reg-form-container form .input-box textarea,
+.container main .register-container .reg-container .reg-form-container form .input-box select {
+    outline: none;
+    border: none;
+    font-size: 12px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    border-radius: 15px;
+}
+
+.container main .register-container .reg-container .reg-form-container form .input-body label,
+.container main .register-container .reg-container .reg-form-container form .input-box label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.container main .register-container .reg-container .reg-form-container form .input-body input {
+    width: 100%;
+}
+
+.container main .register-container .reg-container .reg-form-container form button {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    color: white;
+    background: blue;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.container main .register-container .reg-container .reg-form-container form .form-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container main .register-container .reg-container .reg-form-container form .form-image input {
+    display: none;
+}
+
+
+/*TROCA PRODUTO TITLE*/
+
+
+/*
+.container main .form-container .reg-container .reg-form-container form .troca-title {
+    text-align: center;
+    font-size: 12px;
+    color: blue;
+    margin-top: 12px;
+}
+
+.container main .form-container .reg-container .reg-form-container form .diff {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+
+.container main .form-container .reg-container .reg-form-container form .diff h3 {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.container main .form-container .reg-container .reg-form-container form .diff p {
+    font-size: 14px;
+    font-weight: 600;
+    color: rgb(131, 75, 75);
+}
+
+*/

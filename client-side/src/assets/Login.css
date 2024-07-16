@@ -1,0 +1,138 @@
+.left-side,
+.right-side {
+    flex: 1;
+}
+
+.left-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-side .img {
+    width: 270px;
+    height: 270px;
+}
+
+.left-side .img img {
+    width: 100%;
+}
+
+.right-side {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.right-side .login-form {
+    width: 350px;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000;
+}
+
+.right-side .login-form .title,
+.container .esq-form .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.right-side .login-form .title h1 {
+    color: brown;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.right-side .login-form .title .underline {
+    border-top: 1px solid #d7c6c6;
+    width: 100%;
+}
+
+.right-side .login-form .login-body {
+    width: 100%;
+}
+
+.right-side .login-form .login-body form .input-box {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid #000;
+}
+
+.right-side .login-form .login-body form .input-box .custom-icon {
+    width: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-side .login-form .login-body form .input-box .custom-icon .icon {
+    width: 100%;
+}
+
+.right-side .login-form .login-body form .input-box:nth-child(2) {
+    margin-top: 10px;
+}
+
+.right-side .login-form .login-body form .input-box input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.right-side .login-form .login-body form .remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.right-side .login-form .login-body form .remember-forgot a {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.right-side .login-form .login-body form .remember-forgot a:hover {
+    text-decoration: underline;
+}
+
+.right-side .login-form .login-body form .remember-forgot label {
+    font-size: 16px;
+}
+
+.right-side .login-form .login-body form .remember-forgot label input {
+    margin-right: 3px;
+    accent-color: #fff;
+    outline: none;
+}
+
+.right-side .login-form .login-body form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    color: white;
+    background: blue;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.right-side .copy-right {
+    margin-top: 10px;
+}
+
+.right-side .copy-right p {
+    font-size: 15px;
+}
